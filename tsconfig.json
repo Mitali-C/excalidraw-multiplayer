@@ -18,6 +18,6 @@
     "types": ["vite/client"]
 
   },
-  "include": ["packages", "excalidraw-app"],
+  "include": ["packages", "excalidraw-app", "node_modules/**/*.d.ts"],
   "exclude": ["packages/excalidraw/types", "examples"]
 }
